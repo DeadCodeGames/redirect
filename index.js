@@ -9,7 +9,10 @@ async function redirect(ID) {
         spanname.id = "name";
         spanname.textContent = list[ID]["name"];
         setTimeout(() => {
-            document.querySelector("body").querySelector("span").parentNode.insertBefore(spanname, document.querySelector("body").querySelector("span").nextSibling);setOwO();
+            document.querySelector("body").querySelector("span").parentNode.insertBefore(spanname, document.querySelector("body").querySelector("span").nextSibling); setOwO();
+            setTimeout(() => {
+                window.location.href = list[ID]["redir"];
+            }, 1000);
         }, Math.random()*1500);
     }
 }

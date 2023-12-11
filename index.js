@@ -8,7 +8,9 @@ async function redirect(ID) {
         const spanname = document.createElement('span');
         spanname.id = "name";
         spanname.textContent = list[ID]["name"];
-        document.querySelector("body").appendChild(spanname)
+        setTimeout(() => {
+            document.querySelector("body").appendChild(spanname)
+        }, Math.random()*1500);
     }
 }
 

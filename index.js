@@ -9,4 +9,5 @@ async function redirect(ID) {
     }
 }
 
-onDOMContentLoaded = () =>{redirect(getURL())}
+document.addEventListener("DOMContentLoaded", redirect(getURL()));
+  

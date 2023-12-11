@@ -9,9 +9,13 @@ async function redirect(ID) {
         spanname.id = "name";
         spanname.textContent = list[ID]["name"];
         setTimeout(() => {
-            document.querySelector("body").appendChild(spanname)
+            document.querySelector("body").querySelector("span").parentNode.insertBefore(spanname, document.querySelector("body").querySelector("span").nextSibling);setOwO();
         }, Math.random()*1500);
     }
 }
 
+function setOwO() {
+    const owo = ["owo", "OwO", "oWo", "Ōwò", "uwu", "UwU", "uWu", "iwi", "qwq", "pwp", "TwT", "тwт", "TmT", "тmт", "ôWô", "òwó", "ùwú", ">w<", "-w-", ">m<", "omo", "OmO", "umu", "UmU", "-m-", "owø", "^w^"];
+    document.querySelector("uwu").textContent = owo[Math.round(Math.random() * owo.length)];
+}
 redirect(getURL());

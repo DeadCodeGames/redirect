@@ -40,3 +40,9 @@ body>span:first-of-type::after {white-space: pre;}
         color: #0F0F0F;
     }
 }
+
+uwu {
+    position: absolute;
+    bottom: 10px;
+    font-size: max(2vh,1vw);
+}

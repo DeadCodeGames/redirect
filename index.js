@@ -5,9 +5,11 @@ function getURL() {
 async function redirect(ID) {
     const list = await fetch("index.json").then(response => response.json());
     if (list[ID]) {
-        document.querySelector("body").appendChild('<span id="name">' + list[ID]["name"] + '</span>')
+        const spanname = document.createElement('span');
+        spanname.id = "name";
+        spanname.textContent = list[ID]["name"];
+        document.querySelector("body").appendChild(spanname)
     }
 }
 
-document.addEventListener("DOMContentLoaded", redirect(getURL()));
-  
+redirect(getURL());

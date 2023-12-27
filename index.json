@@ -28,7 +28,9 @@
     "dG9tb3Byb2luc3RhZ3JhbQ": {"redir": "https://www.instagram.com/tom_mosko/", "name": "instagram/@tom_mosko"},
     "dG9tb3Byb3Rpa3Rvaw": {"redir": "https://www.tiktok.com/@TomoProSk", "name": "tiktok/@tomoprosk"},
 
-    "b2xla3NnaXRodWI": {"redir": "https://github.com/Oleksandravailable", "name": "gothub/@oleksandravailable"},
+    "b2xla3NnaXRodWI": {"redir": "https://github.com/Oleksandravailable", "name": "github/@oleksandravailable"},
     "b2xla3NpbnN0YWdyYW0": {"redir": "https://www.instagram.com/oleksandr.diachkov/", "name": "instagram/@oleksandr.diachkov"},
-    "b2xla3NmYWNlYm9vaw": {"redir": "https://www.facebook.com/oleksandr.diachkov", "name": "facebook/@oleksandr.diachkov"}
+    "b2xla3NmYWNlYm9vaw": {"redir": "https://www.facebook.com/oleksandr.diachkov", "name": "facebook/@oleksandr.diachkov"},
+
+    "ZGVhZGNvZGVnaXRodWI": {"redir": "https://github.com/DeadCodeGames", "name": "github/@DeadCodeGames"}
 }
